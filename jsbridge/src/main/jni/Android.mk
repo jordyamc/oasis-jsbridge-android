@@ -1,0 +1,1 @@
+LOCAL_LDFLAGS += "-Wl,-z,max-page-size=16384"
