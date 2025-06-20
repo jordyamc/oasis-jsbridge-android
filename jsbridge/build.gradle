@@ -13,6 +13,7 @@ group = 'de.prosiebensat1digital'
 android {
     compileSdkVersion rootProject.ext.versions.compile_sdk
     namespace "de.prosiebensat1digital.oasisjsbridge"
+    ndkVersion "28.1.13356709"
 
     defaultConfig {
         targetSdkVersion rootProject.ext.versions.target_sdk
